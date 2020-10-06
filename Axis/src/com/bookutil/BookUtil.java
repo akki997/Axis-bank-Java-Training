@@ -45,7 +45,9 @@ public class BookUtil {
         	break;
         case 3:
         	System.out.println("Enter the title or author");
-        	bookstore.searchByTitle(s.next());
+        	String st=s.next();
+        	bookstore.searchByTitle(st);
+        	bookstore.searchByAuthor(st);
         	
         	break;
         case 4:
@@ -57,8 +59,9 @@ public class BookUtil {
         	break;
         case 6:
         	System.out.println("Enter the title or author");
-        	bookstore.searchByTitle(s.next());
-        	bookstore.searchByAuthor(s.next());
+         	String t=s.next();
+        	bookstore.searchByTitle(t);
+        	bookstore.searchByAuthor(t);
         }
         }
         
