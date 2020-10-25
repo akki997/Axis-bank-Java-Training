@@ -1,6 +1,6 @@
 package Assignment
 
-/*
+
 
 class Vehicle{
     fun run():String{
@@ -21,4 +21,4 @@ fun main()
     println(v.stop())
     map.put(1,v.stop())
     println(map)
-}*/
+}
